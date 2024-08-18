@@ -1,0 +1,5 @@
+train: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\train\images
+val: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\train\val
+
+nc: 5  # number of classes
+names: ['bicycle', 'bus', 'car', 'motorbike', 'person']  # class names

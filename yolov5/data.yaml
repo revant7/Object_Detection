@@ -1,5 +1,13 @@
-train: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\train\images
-val: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\train\val
+train: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\images\train
+val: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\images\val
+test: E:\TRAFFIC LIGHT MANAGEMENT\Object_Detection\data\images\test
 
-nc: 5  # number of classes
-names: ['bicycle', 'bus', 'car', 'motorbike', 'person']  # class names
+nc: 5
+names: ['bicycle', 'bus', 'car', 'motorbike', 'person']
+
+roboflow:
+  workspace: fsmvu
+  project: street-view-gdogo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fsmvu/street-view-gdogo/dataset/1
